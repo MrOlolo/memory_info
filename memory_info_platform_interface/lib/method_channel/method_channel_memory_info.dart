@@ -15,7 +15,7 @@ class MethodChannelMemoryInfo extends MemoryInfoPlatform {
   }
 
   @override
-  Future<Memory> memoryInfo() async{
+  Future<Memory> memoryInfo() async {
     return Memory.fromMap(
       (await channel.invokeMethod('getMemoryInfo')).cast<String, dynamic>(),
     );

@@ -8,7 +8,6 @@ enum MemoryInfo {
     }
 
     fileprivate static func getHostBasicInfo() -> host_basic_info? {
-        // TODO: Why is host_basic_info.max_mem val different from sysctl?
 
         let host_port: host_t = mach_host_self()
 
