@@ -1,7 +1,7 @@
 name: memory_info_platform_interface
 description: A common platform interface for memory_info.
+repository: https://github.com/MrOlolo/memory_info/tree/master/memory_info_platform_interface
 version: 0.0.1
-homepage: ''
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
