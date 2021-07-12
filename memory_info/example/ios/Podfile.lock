@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - memory_info (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - memory_info (from `.symlinks/plugins/memory_info/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  memory_info:
+    :path: ".symlinks/plugins/memory_info/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  memory_info: 4559bfc41a5fad956f88a9ba0e4f2f9944c767e1
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
