@@ -1,8 +1,4 @@
 class Memory {
-  ///
-  /// ONLY iOS
-  /// Not work on Android
-  ///
   final num? appMem;
   final num? totalMem;
   final num? freeMem;
