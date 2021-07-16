@@ -8,7 +8,6 @@ enum MemoryInfo {
     }
 
     fileprivate static func getHostBasicInfo() -> host_basic_info? {
-
         let host_port: host_t = mach_host_self()
 
         var size: mach_msg_type_number_t =
@@ -70,7 +69,7 @@ enum MemoryInfo {
         var pagesize: vm_size_t = 0
         host_page_size(host_port, &pagesize)
         // assert: pagesize is initialized
-        return pagesize
+        return UInt(pagesize)
     }
 
     /// Size of physical memory on this machine

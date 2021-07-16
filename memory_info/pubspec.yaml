@@ -1,7 +1,7 @@
 name: memory_info
 description: Flutter package to get device memory info(ram&rom) at android/ios devices
 repository: https://github.com/MrOlolo/memory_info/tree/master/memory_info
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
