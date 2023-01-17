@@ -1,6 +1,10 @@
+## 0.0.3
+
+* bump android sdk && gradle
+
 ## 0.0.2
 
-* fix ios build error at convert 'vm_size_t' to UInt  
+* fix ios build error at convert 'vm_size_t' to UInt
 
 ## 0.0.1
 
