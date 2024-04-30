@@ -6,9 +6,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'method_channel/method_channel_memory_info.dart';
 
-import 'model/disk_space.dart';
-import 'model/memory.dart';
-
 export 'model/disk_space.dart';
 export 'model/memory.dart';
 
